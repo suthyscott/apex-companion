@@ -1,0 +1,104 @@
+[
+    {
+        "class": "Recon",
+        "classAbility": "Activate survey beacons to reveal all enemy locations across the map.",
+        "legends": [
+            {
+                "legendName": "Bloodhound"
+            },
+            {
+                "legendName": "Crypto"
+            },
+            {
+                "legendName": "Seer"
+            },
+            {
+                "legendName": "Vantage"
+            }
+        ]
+    },
+    {
+        "class": "Assault",
+        "classAbility": "Carry extra ammo stack in each slot. Open weapon supply bins",
+        "legends": [
+            {
+                "legendName": "Bangalore"
+            },
+            {
+                "legendName": "Fuze"
+            },
+            {
+                "legendName": "Mad Maggie"
+            },
+            {
+                "legendName": "Ash"
+            },
+            {
+                "legendName": "Ballistic"
+            }
+        ]
+    },
+    {
+        "class": "Skirmisher",
+        "classAbility": "Scan a care package to see what's inside",
+        "legends": [
+            {
+                "legendName": "Pathfinder"
+            },
+            {
+                "legendName": "Wraith"
+            },
+            {
+                "legendName": "Octane"
+            },
+            {
+                "legendName": "Revenant"
+            },
+            {
+                "legendName": "Horizon"
+            },
+            {
+                "legendName": "Valkyrie"
+            }
+        ]
+    },
+    {
+        "class": "Support",
+        "classAbility": "Craft expired team banners. Open blue medical supply bins.",
+        "legends": [
+            {
+                "legendName": "Lifeline"
+            },
+            {
+                "legendName": "Gibraltar"
+            },
+            {
+                "legendName": "Mirage"
+            },
+            {
+                "legendName": "Loba"
+            },
+            {
+                "legendName": "Newcastle"
+            }
+        ]
+    },
+    {
+        "class": "Controller",
+        "classAbility": "Activate ring consoles to see the location of the next ring.",
+        "legends": [
+            {
+                "legendName": "Caustic"
+            },
+            {
+                "legendName": "Wattson"
+            },
+            {
+                "legendName": "Rampart"
+            },
+            {
+                "legendName": "Catalyst"
+            }
+        ]
+    }
+]
