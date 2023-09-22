@@ -38,8 +38,12 @@ const Passive = sequelize.define('passive', {
         autoIncrement: true,
         allowNull: false
     },
+    passiveName: {
+        type: DataTypes.STRING(1000),
+        allowNull: false
+    },
     desc: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(1000),
         allowNull: false
     }
 })
@@ -51,8 +55,12 @@ const Tactical = sequelize.define('tactical', {
         autoIncrement: true,
         allowNull: false
     },
+    tacticalName: {
+        type: DataTypes.STRING(1000),
+        allowNull: false
+    },
     desc: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(1000),
         allowNull: false
     }
 })
@@ -64,8 +72,12 @@ const Ultimate = sequelize.define('ultimate', {
         autoIncrement: true,
         allowNull: false
     },
+    ultimateName: {
+        type: DataTypes.STRING(1000),
+        allowNull: false
+    },
     desc: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(1000),
         allowNull: false
     }
 })

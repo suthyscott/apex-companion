@@ -4,16 +4,64 @@
         "classAbility": "Activate survey beacons to reveal all enemy locations across the map.",
         "legends": [
             {
-                "legendName": "Bloodhound"
+                "legendName": "Bloodhound",
+                "passive": {
+                    "passiveName": "Tracker",
+                    "desc": "Bloodhound’s passive ability allows this hunter to see the footprints left behind by enemy players. Use it to get the drop on foes and land that all-important first shot."
+                },
+                "tactical": {
+                    "tacticalName": "Eye of the Allfather",
+                    "desc": "This ability will be familiar to anyone familiar with Overwatch’s Widowmaker: it will reveal hidden enemies, traps, and clues throughout the terrain. It also proves handy for lining up headshots that’ll leave any hero in a fit of rage."
+                },
+                "ultimate": {
+                    "ultimateName": "Beast of Hunt",
+                    "desc": "A good way to turn everything up to 11, Bloodhound’s ultimate lets you move faster and highlight your prey."
+                }
             },
             {
-                "legendName": "Crypto"
+                "legendName": "Crypto",
+                "passive": {
+                    "passiveName": "Neurolink",
+                    "desc": "While using your Surveillance Drone, enemies within 30 meters of the team are marked for everyone to see."
+                },
+                "tactical": {
+                    "tacticalName": "Surveillance Drone",
+                    "desc": "This ability allows you to take flight with a surveillance drone and scan the surrounding area for hostile teams. Do be warned, though, if it’s shut down you’ll have to wait another 40 seconds for the next one."
+                },
+                "ultimate": {
+                    "ultimateName": "Drone EMP",
+                    "desc": "Detonate your drone and emit an EMP blast that deals shield damage, staggers enemies, and disables traps – handy if you’re struggling with a pesky Wattson."
+                }
             },
             {
-                "legendName": "Seer"
+                "legendName": "Seer",
+                "passive": {
+                    "passiveName": "Heart Seeker",
+                    "desc": "While aiming down sights, Seer can pinpoint the location of nearby enemy players within 75m;"
+                },
+                "tactical": {
+                    "tacticalName": "Focus of Attention",
+                    "desc": "Send a cylindrical cone of micro-drones toward your enemies, temporarily interrupting the cooldowns and abilities of rival players. Micro-drones can also go through walls and reveal the locations of enemies."
+                },
+                "ultimate": {
+                    "ultimateName": "Exhibit",
+                    "desc": "Seer creates a dome using thousands of micro-drones, revealing the locations of any enemies within the sphere’s radius that sprint or fire their weapons."
+                }
             },
             {
-                "legendName": "Vantage"
+                "legendName": "Vantage",
+                "passive": {
+                    "passiveName": "Spotter’s Lens",
+                    "desc": "Aim down sights to scout with your eyepiece (unarmed or with mid to long-range scopes) and use a bullet drop indicator to see where your shots will land."
+                },
+                "tactical": {
+                    "tacticalName": "Echo Relocation",
+                    "desc": "Position your winged companion Echo and then launch towards him. Must have line of sight for Echo to launch."
+                },
+                "ultimate": {
+                    "ultimateName": "Sniper’s Mark",
+                    "desc": "A custome sniper rifle that accrues another bullet every ~30 seconds, up to 5 in the magazine. Hitting an enemy with Sniper's Mark puts a tag on them for 10 seconds and applies a damage bonus for you and your team."
+                }
             }
         ]
     },
@@ -22,19 +70,79 @@
         "classAbility": "Carry extra ammo stack in each slot. Open weapon supply bins",
         "legends": [
             {
-                "legendName": "Bangalore"
+                "legendName": "Bangalore",
+                "passive": {
+                    "passiveName": "Double Time",
+                    "desc": "When taking fire from enemies, Bangalore will move at an increased pace for a brief amount of time. For a game that’s already fast-paced, this ability gives you a speedy edge."
+                },
+                "tactical": {
+                    "tacticalName": "Smoke Launcher",
+                    "desc": "This ability allows Bangalore to hurl a smoke grenade that explodes on impact at her enemies. Whether you’re escaping from a group of foes that have got the drop on you, or you’re looking to turn the tables, Bangalore’s smoke launcher will come in handy."
+                },
+                "ultimate": {
+                    "ultimateName": "Rolling Thunder",
+                    "desc": "Useful if you’re in a pinch or weathering a match’s latter moments, Bangalore’s ultimate ability sends an artillery strike across the landscape."
+                }
             },
             {
-                "legendName": "Fuze"
+                "legendName": "Fuze",
+                "passive": {
+                    "passiveName": "Grenadier",
+                    "desc": "Grenades can be stacked in piles of two instead of the usual one. Fuse can launch grenades using his arm cannon, firing ordinance faster, further, and more accurately compared to the other Legends."
+                },
+                "tactical": {
+                    "tacticalName": "Knuckle Cluster",
+                    "desc": "Launch a cluster bomb that deals damage on impact before turning into several smaller explosives. This ability can inflict self-damage, so it’s important to avoid follow-up explosives."
+                },
+                "ultimate": {
+                    "ultimateName": "The Motherlode",
+                    "desc": "Launch a mortar in mid-air that encircles the target in a wall of flame. This explosive explodes in the air, taking a few seconds for the flames to land before dealing damage."
+                }
             },
             {
-                "legendName": "Mad Maggie"
+                "legendName": "Mad Maggie",
+                "passive": {
+                    "passiveName": "Warlord’s Ire",
+                    "desc": "Temporarily highlight enemies you’ve damaged, and move faster with a shotgun."
+                },
+                "tactical": {
+                    "tacticalName": "Riot Drill",
+                    "desc": "Fire a drill that burns enemies through obstacles."
+                },
+                "ultimate": {
+                    "ultimateName": "Wrecking Ball",
+                    "desc": "Throw a ball that releases speed-boosting pads and detonates near enemies."
+                }
             },
             {
-                "legendName": "Ash"
+                "legendName": "Ash",
+                "passive": {
+                    "passiveName": "Marked for Death",
+                    "desc": "Ash can scan death boxes to mark the locations of any surviving party members. This ability also allows Ash to see any recent death boxes on the map."
+                },
+                "tactical": {
+                    "tacticalName": "Arc Snare",
+                    "desc": "Throw a snare that tethers and damages an enemy who gets too close to the trap."
+                },
+                "ultimate": {
+                    "ultimateName": "Phase Breach",
+                    "desc": "Tear into the dimensional wall to create a one-way portal in the direction Ash is facing."
+                }
             },
             {
-                "legendName": "Ballistic"
+                "legendName": "Ballistic",
+                "passive": {
+                    "passiveName": "Sling",
+                    "desc": "Store a third weapon in the sling. Access via inventory or Character Utility Action. The sling weapon cannot take attachments."
+                },
+                "tactical": {
+                    "tacticalName": "Whistler",
+                    "desc": "Shoots a projectile that heats up an enemy’s gun as they shoot. Overheating causes damage."
+                },
+                "ultimate": {
+                    "ultimateName": "Tempest",
+                    "desc": "When activated, nearby teammates get faster reloads, faster unarmed move speed, and infinite ammo. Ballistic’s sling weapon will be equipped and upgraded to gold."
+                }
             }
         ]
     },
@@ -43,22 +151,94 @@
         "classAbility": "Scan a care package to see what's inside",
         "legends": [
             {
-                "legendName": "Pathfinder"
+                "legendName": "Pathfinder",
+                "passive": {
+                    "passiveName": "Insider Knowledge",
+                    "desc": "Using his class ability to scan the contents of a care package will recharge Pathfinder's Ultimate ability, Zipline Gun"
+                },
+                "tactical": {
+                    "tacticalName": "Grappling Hook",
+                    "desc": "AIs the pesky terrain getting in your way of escaping the ring? Pathfinder’s Grappling Hook lets you zip away and close large distances swiftly."
+                },
+                "ultimate": {
+                    "ultimateName": "Zipline Gun",
+                    "desc": "They say you should never leave a man behind. Don’t be selfish and use your Zipline Gun to create an escape route for the rest of your team."
+                }
             },
             {
-                "legendName": "Wraith"
+                "legendName": "Wraith",
+                "passive": {
+                    "passiveName": "Voices from the Void",
+                    "desc": "If an enemy team is about to get the drop on you, the friendly voice in Wraith’s head will let you know. It can be tricky to distinguish between this and your team’s comms, however."
+                },
+                "tactical": {
+                    "tacticalName": "Into the Void",
+                    "desc": "Wraith’s tactical ability allows you to traverse the void without taking any damage, which means you can effectively turn invisible and not take any damage for a bit."
+                },
+                "ultimate": {
+                    "ultimateName": "Dimensional Rift",
+                    "desc": "Dimensional Rift allows Wraith to create a portal across the map, giving your party members (and enemy squads) a faster way to travel at once."
+                }
             },
             {
-                "legendName": "Octane"
+                "legendName": "Octane",
+                "passive": {
+                    "passiveName": "Swift Mend",
+                    "desc": "Octane will gradually recover his health over time, which is handy for the number of scraps he gets into."
+                },
+                "tactical": {
+                    "tacticalName": "Stim",
+                    "desc": "After injecting himself with a stimulant, Octane will move considerably faster at the cost of some of his health. It’s a good thing, then, that he can gradually recover that health over time unless someone is shooting at him."
+                },
+                "ultimate": {
+                    "ultimateName": "Launch Pad",
+                    "desc": "With the simple toss of a Launch Pad, Octane can propel himself, and anyone else on the map of that matter, off to great heights."
+                }
             },
             {
-                "legendName": "Revenant"
+                "legendName": "Revenant",
+                "passive": {
+                    "passiveName": "Assassin’s Instinct",
+                    "desc": "Revenant wall climbs and crouch walks faster and highlights low health enemies. Hit enemies will be shown for everyone on team. There's no max amount of players that can be highlighted at once, but it does just highlight players who are nearby and damaged."
+                },
+                "tactical": {
+                    "tacticalName": "Shadow Pounce",
+                    "desc": "Revenant can leap forward or hold the charge for 5 seconds to leap further."
+                },
+                "ultimate": {
+                    "ultimateName": "Forged Shadows",
+                    "desc": "Revenant creates shadows around him like a shield to block damage. He can recharge this shadow shield and his tactical ability when he gets knockdowns."
+                }
             },
             {
-                "legendName": "Horizon"
+                "legendName": "Horizon",
+                "passive": {
+                    "passiveName": "Spacewalk",
+                    "desc": "Increase air control and reduce fall impacts with Horizon’s custom spacesuit."
+                },
+                "tactical": {
+                    "tacticalName": "Gravity Lift",
+                    "desc": "Reverses the flow of gravity, lifting players upwards and boosting them outwards when they exit."
+                },
+                "ultimate": {
+                    "ultimateName": "Black Hole",
+                    "desc": "Deploy NEWT to create a micro black hole that pulls players in towards it, and hits them with a gravitation blast at the end."
+                }
             },
             {
-                "legendName": "Valkyrie"
+                "legendName": "Valkyrie",
+                "passive": {
+                    "passiveName": "VTOL Jets + Jet-Fighter HUD",
+                    "desc": "Hover in the air using VTOL jets by holding jump for a short period of time. The fuel reserves last around ten seconds when constantly moving through the air. Valkyrie can stay in the air for longer than ten seconds, but she has to remain stationary. While skydiving, Valkyrie and her teammates can see any enemies within 250 meters. Unlike Bloodhound and Crypto’s scanning abilities, the Jet-Fighter HUD doesn’t reveal to enemies that they’re being tracked."
+                },
+                "tactical": {
+                    "tacticalName": "Missile Swarm",
+                    "desc": "While skydiving, Valkyrie and her teammates can see any enemies within 250 meters. Unlike Bloodhound and Crypto’s scanning abilities, the Jet-Fighter HUD doesn’t reveal to enemies that they’re being tracked."
+                },
+                "ultimate": {
+                    "ultimateName": "Skyward Dive",
+                    "desc": "Valkyrie can launch into the air with her teammates and skydive to a new location. This ability works similarly to a jump tower – Valkyrie can be attacked during the pre-launch animation and while ascending."
+                }
             }
         ]
     },
@@ -67,19 +247,79 @@
         "classAbility": "Craft expired team banners. Open blue medical supply bins.",
         "legends": [
             {
-                "legendName": "Lifeline"
+                "legendName": "Lifeline",
+                "passive": {
+                    "passiveName": "Combat Medic",
+                    "desc": "Deploy D.O.C. to revive teammates, leaving Lifeline free to defend."
+                },
+                "tactical": {
+                    "tacticalName": "D.O.C. Heal Drone",
+                    "desc": "Lifeline’s tactical Ability summons a robot called the Drone of Compassion, which automatically heals nearby teammates over a brief period."
+                },
+                "ultimate": {
+                    "ultimateName": "Care Package",
+                    "desc": "Best used between fights or toward the end of a game, Lifeline’s Ultimate Ability will summon a drop pod packed with high-quality defensive gear."
+                }
             },
             {
-                "legendName": "Gibraltar"
+                "legendName": "Gibraltar",
+                "passive": {
+                    "passiveName": "Gun Shield",
+                    "desc": "When aiming down sights with Gibraltar, this ability grants you a gun shield that blocks incoming fire."
+                },
+                "tactical": {
+                    "tacticalName": "Dome of Protection",
+                    "desc": "Useful for blocking doorways or providing some quick protection, Gibraltar’s dome-shaped shield ensures the safety of your squad for 15 seconds."
+                },
+                "ultimate": {
+                    "ultimateName": "Defensive Bombardment",
+                    "desc": "Much like Bangalore’s Rolling Thunder, Gibraltar’s Ultimate Ability allows him to call for air support. Defensive Bombardment, however, is more of a concentrated mortar strike on a marked position."
+                }
             },
             {
-                "legendName": "Mirage"
+                "legendName": "Mirage",
+                "passive": {
+                    "passiveName": "Now You See Me…",
+                    "desc": "Whenever Mirage is struck down by an enemy, his passive ability automatically deploys a decoy while cloaking himself for five seconds. Mirage also cloaks when using Respawn Beacons and when he revives teammates, temporarily hiding him and his squad from nearby enemies."
+                },
+                "tactical": {
+                    "tacticalName": "Psyche Out",
+                    "desc": "Stuck in a tense face-off where no one is brave enough to make the first move? Then Psyche Out may prove handy for, well, psyching your opponent out as Mirage sends another one of his decoy’s running off in a chosen direction to confuse the opposition. You can control the direction of the decoy by pressing the utility action button."
+                },
+                "ultimate": {
+                    "ultimateName": "Vanishing Act",
+                    "desc": "What’s better than one decoy? If your answer is many, then you may get a kick out of Mirage’s Vanishing Act. This ultimate sends a team of decoys out to distract enemies and cloaks you."
+                }
             },
             {
-                "legendName": "Loba"
+                "legendName": "Loba",
+                "passive": {
+                    "passiveName": "Eye for Quality",
+                    "desc": "Nearby epic and legendary loot can be seen through walls. The range is the same as Black Market Boutique."
+                },
+                "tactical": {
+                    "tacticalName": "Burglar’s Best Friend",
+                    "desc": "Teleport to hard-to-reach places or escape trouble quickly by throwing your Jump Drive Bracelet."
+                },
+                "ultimate": {
+                    "ultimateName": "Black Market Boutique",
+                    "desc": "Place a portable device that allows you to teleport nearby loot to your inventory. Each friendly or enemy Legend can take up to two items."
+                }
             },
             {
-                "legendName": "Newcastle"
+                "legendName": "Newcastle",
+                "passive": {
+                    "passiveName": "Retrieve the Wounded",
+                    "desc": "Drag downed allies as you revive and protect them with the Revive Shield."
+                },
+                "tactical": {
+                    "tacticalName": "Mobile Shield",
+                    "desc": "Throw a controllable drone that creates a moving energy shield."
+                },
+                "ultimate": {
+                    "ultimateName": "Castle Wall",
+                    "desc": "Leap to an ally or target area and slam down, creating a fortified stronghold."
+                }
             }
         ]
     },
@@ -88,16 +328,64 @@
         "classAbility": "Activate ring consoles to see the location of the next ring.",
         "legends": [
             {
-                "legendName": "Caustic"
+                "legendName": "Caustic",
+                "passive": {
+                    "passiveName": "Nox Vision",
+                    "desc": "Caustic’s passive ability allows him to see through his gas attacks. We only wish our partners could do the same. A subtle skill, but no doubt one that will give an edge against the foes you mean to disorientate."
+                },
+                "tactical": {
+                    "tacticalName": "Nox gas trap",
+                    "desc": "This gas-filled canister will only detonate when shot or triggered by enemies."
+                },
+                "ultimate": {
+                    "ultimateName": "Nox Gas Grenade",
+                    "desc": "Very much a larger scale version of his tactical ability, Caustic’s Nox Gas Grenade sends a large puff of toxic smoke across a vast area."
+                }
             },
             {
-                "legendName": "Wattson"
+                "legendName": "Wattson",
+                "passive": {
+                    "passiveName": "Spark of Genius",
+                    "desc": "Waiting for your ultimate to charge is no longer a concern when playing as Wattson, as her passive allows Ultimate Accelerants to fully charge her ultimate ability. Once you’ve called in the Interception Pylon, standing near it will boost your tactical ability recharge rate."
+                },
+                "tactical": {
+                    "tacticalName": "Perimeter Security",
+                    "desc": "Wattson’s tactical allows you to throw down connecting nodes to create electrified fences that can damage and slow enemies.  Much like Caustic’s gas traps, the fences are great for hunkering down and repelling an enemy onslaught, or getting some instant protection if you suspect an enemy is on your tail. Enemies passing through the electric field will be slowed, allowing you and your teammates to pick up some easy kills."
+                },
+                "ultimate": {
+                    "ultimateName": "Interception Pylon",
+                    "desc": "Once your ultimate is charged, you can call in the Interception Pylon, an electrified tool that destroys incoming ordnance and repairs damaged shields as long as it stands. This is incredibly useful for surviving an enemy ultimate such as Gibraltar’s bombardment. It’s also a lifesaver if you run out of shield batteries during a firefight."
+                }
             },
             {
-                "legendName": "Rampart"
+                "legendName": "Rampart",
+                "passive": {
+                    "passiveName": "Amped Cover",
+                    "desc": "Build a croup-cover wall, which deploys a full-cover amped wall that blocks incoming shots and amps outgoing shots."
+                },
+                "tactical": {
+                    "tacticalName": "Modded Loader",
+                    "desc": "Increased magazine capacity and faster reloads when using LMGs and the Minigun."
+                },
+                "ultimate": {
+                    "ultimateName": "Sheila",
+                    "desc": "Pull out a machine gun with high ammo capacity and long reload time. You have one mobile magazine to use Sheila while moving around, and then you can place it on a stationary turret to reload and use indefinitely."
+                }
             },
             {
-                "legendName": "Catalyst"
+                "legendName": "Catalyst",
+                "passive": {
+                    "passiveName": "Barricade",
+                    "desc": "Reinforce doors, strengthening them and locking them to enemies. Spaces, where doors have been destroyed, can also be reinforced."
+                },
+                "tactical": {
+                    "tacticalName": "Piercing Spikes",
+                    "desc": "Throw out a patch of ferrofluid which turns into spikes when enemies are near. Catalyst remains immune to enemy spikes."
+                },
+                "ultimate": {
+                    "ultimateName": "Dark Veil",
+                    "desc": "Raise a permeable wall of ferrofluid. Enemies who walk through it will be slowed and partially blinded for a brief time."
+                }
             }
         ]
     }

@@ -4,7 +4,7 @@ export default {
     getAllLegends: async (req, res) => {
         const legends = await Legend.findAll({
             include: {
-                model: LegendClass
+                all: true
             }
         })
         res.send(legends)
